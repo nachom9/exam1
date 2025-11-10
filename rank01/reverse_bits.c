@@ -11,7 +11,7 @@ unsigned char	reverse_bits(unsigned char octet)
 	}
 	return (res);
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -28,4 +28,4 @@ int	main(void)
 		bit = (res >> i & 1) + 48;
 		printf("%c", bit);
 	}
-}
+}*/
